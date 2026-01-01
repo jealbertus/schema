@@ -17,7 +17,7 @@ export class Menu {
 			
 			this.appRoute			= 	window.location.origin + '/' + window.location.pathname.split ('/') [1] + '/';
 			
-			this.api				=   "/appsoluciones.com/HospitalElAngel/HospitalAPI/";
+			this.api				=   "https://appsoluciones.com/HospitalElAngel/HospitalAPI/";
 			
 		} catch(ex){
 			console.log(ex.message); 	 
