@@ -1,4 +1,4 @@
-import {   Menu  					} 	from './../DAO/menu.js';
+import {   Menu  					} 	from './../Services/menu.js';
 
 export class Router{
 
@@ -21,15 +21,7 @@ export class Router{
 		 
 	}
 	
-	
-	 /*
-		       <li class="sidenav-item ">
-                <a href="#/database"   class="sidenav-link">
-                  <div>@DataBase  </div>
-                </a>
-              </li>		 
-		 
-	*/
+	 
 
 	
 	async GetCollection(){
